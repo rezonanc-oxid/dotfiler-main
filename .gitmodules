@@ -1,0 +1,3 @@
+[submodule ".shell/packages-all/vagrant-ssh"]
+	path = .shell/packages-all/vagrant-ssh
+	url = git@github.com:rezonanc-oxid/vagrant-ssh.git
