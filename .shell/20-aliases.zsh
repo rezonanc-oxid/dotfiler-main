@@ -14,7 +14,7 @@ alias prn='bin/phpspec run -n'
 alias pus='bin/phpunit -c app'
 
 # Mac specific
-alias ppwd='eval "echo `pwd` | pbcopy"'
+alias ppwd='eval "echo -n `pwd` | pbcopy"'
 
 # Docker specific
 alias dockerenv='eval "$(docker-machine env default)"'
