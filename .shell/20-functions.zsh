@@ -187,3 +187,7 @@ fshow() {
                 {}
 FZF-EOF"
 }
+
+function lxcroute() {
+    netstat -nr | grep 10.0.3 &>/dev/null || sudo route -n add 10.0.3.0/24 192.168.33.10
+}
