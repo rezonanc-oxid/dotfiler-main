@@ -21,10 +21,10 @@ alias dockerenv='eval "$(docker-machine env default)"'
 
 alias vihosts='sudo vim /etc/hosts'
 
-alias cdd='cd /Volumes/Data/oxid/vms/lxc'
-alias cdbox='cd /Volumes/Data/oxid/vms/box'
+alias cdd='cd /Volumes/Data/Users/oxid/vms/lxc'
+alias cdbox='cd /Volumes/Data/Users/oxid/vms/box'
 
-alias lxc='ssh -o LogLevel=quiet -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -i /Volumes/Data/oxid/vms/box/.vagrant/machines/default/parallels/private_key vagrant@lxc'
+alias lxc='ssh -o LogLevel=quiet -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -i /Volumes/Data/Users/oxid/vms/box/.vagrant/machines/default/parallels/private_key vagrant@lxc'
 alias rdns='sudo killall -HUP mDNSResponder'
 
 alias dls='docker inspect -f "{{.Name}} - {{.NetworkSettings.IPAddress }}" $(docker ps -q)'
