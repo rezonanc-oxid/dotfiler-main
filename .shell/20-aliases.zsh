@@ -36,3 +36,5 @@ alias unmirror_lxc_hosts='sudo bash -c "cat /etc/hosts_static > /etc/hosts"'
 alias lxc-ls='lxc sudo lxc-ls -f'
 
 alias g='git'
+
+alias vim='nvim'
