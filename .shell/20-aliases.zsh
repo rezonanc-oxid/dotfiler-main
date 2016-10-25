@@ -21,7 +21,7 @@ alias dockerenv='eval "$(docker-machine env default)"'
 
 alias vihosts='sudo vim /etc/hosts'
 
-alias cdd='cd /Volumes/Data/Users/oxid/vms/lxc'
+alias cdd='cd /Volumes/Data/Users/oxid/vms/lxc/oxid_shops'
 alias cdbox='cd /Volumes/Data/Users/oxid/vms/box'
 
 alias lxc='ssh -o LogLevel=quiet -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -i /Volumes/Data/Users/oxid/vms/box/.vagrant/machines/default/parallels/private_key vagrant@lxc'
